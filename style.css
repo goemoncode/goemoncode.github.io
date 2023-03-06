@@ -35,3 +35,10 @@ body {
   width: 70%;
   fill: var(--logo-color);
 }
+
+@media (max-aspect-ratio: 1/1) {
+  .circle {
+    width: 80%;
+    height: auto;
+  }
+}
