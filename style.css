@@ -1,0 +1,37 @@
+:root {
+  color-scheme: light dark;
+
+  --logo-color: Canvas;
+  --logo-bg-color: CanvasText;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --logo-color: gray;
+  }
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  margin: 0;
+}
+
+.circle {
+  display: grid;
+  place-items: center;
+  background: var(--logo-bg-color);
+  border-radius: 50%;
+  height: 80%;
+  aspect-ratio: 1;
+}
+
+.logo {
+  width: 70%;
+  fill: var(--logo-color);
+}

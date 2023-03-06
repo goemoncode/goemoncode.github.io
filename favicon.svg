@@ -1,0 +1,13 @@
+<svg viewBox="0 0 92.2 92.2"
+  xmlns="http://www.w3.org/2000/svg">
+  <style>
+    #bg { fill: black; }
+    #logo { fill: white; }
+    @media (prefers-color-scheme: dark) {
+      #bg { fill: white; }
+      #logo { fill: gray; }
+    }
+  </style>
+  <rect id="bg" x="0" y="0" width="92.2" height="92.2" fill="black" />
+  <path id="logo" transform="translate(10 14) scale(.8 .8)" d="M 82.1 24.3 L 82.1 53.1 L 92.2 53.1 L 92.2 72.2 L 0 72.2 L 0 53.1 L 15.9 53.1 L 17.4 42.4 L 6.5 42.4 L 6.5 24.3 L 20.1 24.3 L 21 17.9 L 1.2 17.9 L 1.2 0 L 90.4 0 L 90.4 17.9 L 45.8 17.9 L 44.9 24.3 L 82.1 24.3 Z M 57.1 53.1 L 57.1 42.4 L 42.2 42.4 L 40.7 53.1 L 57.1 53.1 Z" vector-effect="non-scaling-stroke" stroke-linecap="round" fill-rule="evenodd" />
+</svg>
